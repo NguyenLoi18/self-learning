@@ -1,0 +1,74 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div id="container">
+            <form action="loi.php" method="post" style="padding-bottom:40px;width: 500px;padding-left: 60px; border-radius: 10px; margin: 10px auto; background: #a9b1dd;">
+            <h1 style="text-align: center;">Đăng Ký</h1>
+            <span style="border-radius: 20px;padding: 10px; color: blue; display: inline-block;background: #e9e91e;">1</span>
+            <span style="font-size: 20px;">Họ Và Tên</span>
+            <br>
+            <span>Họ và tên</span>
+            <br>
+            <input type="text" name="username" placeholder="Input your user name" style="margin-top: 10px; margin-bottom: 10px;padding-left: 30px; padding-top: 10px; padding-bottom: 10px;width: 90%;padding-right: 30px;"></input>
+            <br>
+            <span>Email</span>
+            <br>
+            <input type="text" name="email" placeholder="Input your user email"style="margin-top: 10px; margin-bottom: 10px;padding-left: 30px; padding-top: 10px; padding-bottom: 10px;width: 90%;padding-right: 30px;"></input>
+            <br>
+            <span>Mật khẩu</span>
+            <br>
+            <input type="password" name="username" placeholder="Input your password"style="margin-top: 10px; margin-bottom: 10px;padding-left: 30px; padding-top: 10px; padding-bottom: 10px;width: 90%;padding-right: 30px;"></input>
+            <br>
+            Tuổi:
+            <br>
+            <input type="radio" value="dưới 13" name="age user">Dưới 13 tuổi</input>
+            <br>
+            <input type="radio" value="trên 13" name="age user">Trên 13 tuổi</input>
+            <br>
+            <br>
+            <span style="border-radius: 20px;padding: 10px; color: blue; display: inline-block;background: #e9e91e;">2</span>
+            <span style="font-size: 20px;">Thông tin cá nhân</span>
+            <br>
+            <span>Giới thiệu</span>
+            <br>
+            <textarea id="bio" placeholder="Input your bio" cols="58" rows="5"></textarea>
+            <br>
+            <br>
+            <span>Vị trí</span>
+            <select name="job" id="jobid">
+                <optgroup label="DEV">
+                    <option value="PHP"> PHP-developer</option>
+                    <option value="C"> C-developer</option>
+                    <option value="Python"> Python-developer</option>
+                    <option value="React"> React-developer</option>
+                </optgroup>
+                <optgroup label="WEB">
+                    <option value="PHP"> PHP-developer</option>
+                    <option value="C"> C-developer</option>
+                    <option value="Python"> Python-developer</option>
+                    <option value="React"> React-developer</option>
+                </optgroup>
+                <optgroup label="Tester">
+                    <option value="PHP"> PHP-developer</option>
+                    <option value="C"> C-developer</option>
+                    <option value="Python"> Python-developer</option>
+                    <option value="React"> React-developer</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <span>Sở Thích</span>
+            <br>
+            <input type="checkbox" value="Test1" name="check">Thể Thao</input>
+            <br>
+            <input type="checkbox" value="Test1" name="check">Đọc Sách</input>
+            <br>
+            <input type="checkbox" value="Test1" name="check">Chơi Game</input>
+            <br>
+            <br>
+            <input type="submit" value="Đăng Ký" style="font-size: 20px; padding: 20px; width: 90%; color: yellow; background: gray;border-radius: 20px;"></input>
+        </form>
+        </div>
+    </body>
+</html>
